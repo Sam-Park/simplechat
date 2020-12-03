@@ -40,7 +40,7 @@ const useChat = (roomId) => {
     });
   };
 
-  return { messages, sendMessage };
+  return console.log(messages), { messages, sendMessage };
 };
 
 export default useChat;

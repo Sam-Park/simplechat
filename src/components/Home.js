@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./Home.css";
+// import "./Home.css";
 
 const Home = () => {
   const [roomName, setRoomName] = React.useState("");
